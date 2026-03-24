@@ -1,0 +1,11 @@
+/* amarelo - seletor de html (algo que vem de la), abre chave e fecha chave, dentro deles tem a propriedade (azul) */
+/* azul - propriedade e valor
+propriedade -  geralmente são nomes de algo
+ valor é a cor, ou em palavra ou numero  */
+
+ body {
+    /* cor de fundo */
+    background-color: rgb(126, 61, 15);
+/* cor dos textos  */
+    color: ;
+ }
