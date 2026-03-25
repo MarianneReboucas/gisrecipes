@@ -3,9 +3,34 @@
 propriedade -  geralmente são nomes de algo
  valor é a cor, ou em palavra ou numero  */
 
+ /* reset css */
+ *{
+    /* margem  */
+    margin: 0;
+ }
+ 
  body {
     /* cor de fundo */
-    background-color: rgb(126, 61, 15);
-/* cor dos textos  */
-    color: ;
+    background-color: rgb(162, 50, 196);
+    /* cor de txto  */
+    color: aliceblue;
+
  }
+
+ /* seletor */
+ a {
+    /* propriedade e valor  */
+text-decoration: none;
+color: aliceblue;
+}
+
+/* hader = cabeçalho */
+header {
+    /* row (linha) */
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #9800ac;
+/* largura ou comprimento */
+width: 100%;
+}
