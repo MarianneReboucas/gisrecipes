@@ -13,9 +13,9 @@
     <!-- bootstrap icons -->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-   
-<!--  inclusão do CSS -->
-  <link rel="stylesheet" href="css/estilo.css">
+
+    <!--  inclusão do CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
@@ -26,41 +26,42 @@
 
         <!-- LOGO  -->
 
-        <div> <!-- serve pra guardar imagem aq -->
-            <a href="https:shein.com//">
+        <div class="header-logo"> <!-- serve pra guardar imagem aq -->
+            <a href="#home">
                 meu logo
             </a> <!-- codigo ancora// a:link ele tranforma tudo escrito em link -->
-
         </div>
         <!-- menu desktp´/pc -->
 
-        <nav> <!-- navegaçaõ -->
-            <ul>
+        <nav class="menu-desktop"> <!-- navegaçaõ -->
+            <ul class="menu">
                 <li> <!-- representação do codigo lista// 
                     li é lista não ordenada, vai aparecer em topicos//
                      ol é lista ordenada, ou seja em numero -->
-                    <a href="">
-                        <span> home </span>
+
+                     <!-- CRIA LINKS -->
+                    <a href="#home" class="menu-link active">
+                        <span class="menu-text"> home </span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <span> receitas </span>
+                    <a href=""class="menu-link">
+                        <span class="menu-text"> receitas </span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <span> sobre nós </span>
+                    <a href="" class="menu-link">
+                        <span class="menu-text"> sobre nós </span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <span> cursos </span>
+                    <a href="" class="menu-link">
+                        <span class="menu-text"> cursos </span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <span> contatos </span>
+                    <a href="" class="menu-link">
+                        <span class="menu-text"> contatos </span>
                     </a>
                 </li>
             </ul>
@@ -70,13 +71,13 @@
 
         <!-- icone para trocar a cor do tema  -->
 
-        <div>
+        <div class="header-toggle"> <!-- toggle = alterar -->
 
             <!-- icine de escuro ou claro -->
-            <i class="bi bi-brightness-high-fill"></i>
+            <i class="bi bi-brightness-high-fill" id=" toggleTheme"></i>
 
             <!-- icone de lista/hamburger -->
-            <button>
+            <button class="btn-menu-mobile" id="menuHamburger">
 
                 <i class="bi bi-list"></i>
 
