@@ -35,3 +35,13 @@ background-color: #9800ac;
 /* largura ou comprimento */
 width: 100%;
 }
+ /* UL sistema lista  Topicos */
+ .menu { 
+list-style: none;
+/* lista horizontal */
+display: flex;
+/* espaço entre TAGs */
+gap: 1rem; /* um rem  */
+ }
+
+ 
