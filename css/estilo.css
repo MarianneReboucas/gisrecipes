@@ -60,12 +60,18 @@ gap: 1rem; /* um rem  */
  /* responsivo - telas maiores que 768px (apartir de um tablet)*/
 
 @media ( min-width: 768px) {
-header (padding: 1rem  /* cima baixo */ 6rem /* dierita esquerda */;)
-   /* nav */
-    .menu-desktop 
- {
-   display: flex;
- }
+header{
+/* espaço inteiro */
+    padding: 1rem 6rem;
 }
+
+
+/* NAV */
+.menu-desktop {
+    display: flex;
+}
+
+}
+
 
  
