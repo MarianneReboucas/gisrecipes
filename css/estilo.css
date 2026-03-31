@@ -38,10 +38,34 @@ width: 100%;
  /* UL sistema lista  Topicos */
  .menu { 
 list-style: none;
+
 /* lista horizontal */
 display: flex;
+
 /* espaço entre TAGs */
 gap: 1rem; /* um rem  */
  }
+
+ /* tag nav */
+
+ .menu-desktop 
+ {
+   display: none;
+ }
+
+/* tudo que tem ate o inicio do cod, é mobile */
+/* ------------------------------------------------------------------------------- */
+
+
+ /* responsivo - telas maiores que 768px (apartir de um tablet)*/
+
+@media ( min-width: 768px) {
+header (padding: 1rem  /* cima baixo */ 6rem /* dierita esquerda */;)
+   /* nav */
+    .menu-desktop 
+ {
+   display: flex;
+ }
+}
 
  
