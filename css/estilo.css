@@ -54,6 +54,12 @@ header {
     display: none;
 }
 
+/* logo */
+
+.logo
+{
+    width: 5rem;
+}
 /* tudo que tem ate o inicio do cod, é mobile */
 /* ------------------------------------------------------------------------------- */
 
