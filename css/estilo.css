@@ -3,75 +3,73 @@
 propriedade -  geralmente são nomes de algo
  valor é a cor, ou em palavra ou numero  */
 
- /* reset css */
- *{
+/* reset css */
+* {
     /* margem  */
     margin: 0;
     box-sizing: border-box;
- }
- 
- body {
+}
+
+body {
     /* cor de fundo */
     background-color: rgb(162, 50, 196);
     /* cor de txto  */
     color: aliceblue;
 
- }
+}
 
- /* seletor */
- a {
+/* seletor */
+a {
     /* propriedade e valor  */
-text-decoration: none;
-color: aliceblue;
+    text-decoration: none;
+    color: aliceblue;
 }
 
 /* hader = cabeçalho */
 header {
     /* row (linha) */
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #9800ac;
-/* largura ou comprimento */
-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9800ac;
+    /* largura ou comprimento */
+    width: 100%;
 }
- /* UL sistema lista  Topicos */
- .menu { 
-list-style: none;
 
-/* lista horizontal */
-display: flex;
+/* UL sistema lista  Topicos */
+.menu {
+    list-style: none;
 
-/* espaço entre TAGs */
-gap: 1rem; /* um rem  */
- }
+    /* lista horizontal */
+    display: flex;
 
- /* tag nav */
+    /* espaço entre TAGs */
+    gap: 1rem;
+    /* um rem  */
+}
 
- .menu-desktop 
- {
-   display: none;
- }
+/* tag nav */
+
+.menu-desktop {
+    display: none;
+}
 
 /* tudo que tem ate o inicio do cod, é mobile */
 /* ------------------------------------------------------------------------------- */
 
 
- /* responsivo - telas maiores que 768px (apartir de um tablet)*/
+/* responsivo - telas maiores que 768px (apartir de um tablet)*/
 
-@media ( min-width: 768px) {
-header{
-/* espaço inteiro */
-    padding: 1rem 6rem;
+@media (min-width: 768px) {
+    header {
+        /* espaço inteiro */
+        padding: 1rem 6rem;
+    }
+
+
+    /* NAV */
+    .menu-desktop {
+        display: flex;
+    }
+
 }
-
-
-/* NAV */
-.menu-desktop {
-    display: flex;
-}
-
-}
-
-
- 
